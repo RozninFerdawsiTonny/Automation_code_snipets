@@ -31,6 +31,7 @@ public class LocatorTest {
         driver.findElement(By.cssSelector("a[href*='lc-setup'] span")).click();
         //driver.navigate().to("https://qahofin.bracits.com/brac/lc-setup/list");
         driver.findElement(By.cssSelector("div .row a[href*='lc-setup/add']")).click();
+        
 
         Thread.sleep(3000);
 
