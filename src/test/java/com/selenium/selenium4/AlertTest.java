@@ -19,7 +19,7 @@ public class AlertTest {
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
      //==single Alert==//
-//        driver.findElement(By.id("alertButton")).click();
+        driver.findElement(By.id("alertButton")).click();
         driver.switchTo().alert().accept();
          //Alert alert = driver.switchTo().alert();
         //===ConfirmButton Alert===//
