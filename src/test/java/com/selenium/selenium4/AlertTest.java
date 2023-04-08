@@ -1,4 +1,4 @@
-package com.selenium4;
+package com.selenium.selenium4;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.Alert;
@@ -7,7 +7,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-import java.sql.Driver;
 import java.time.Duration;
 
 public class AlertTest {
